@@ -5,7 +5,7 @@ import Card from "../UI/Card";
 
 const ExpenseItem = (props) => {
   const [title, setTitle] = useState(props.title);
-  console.log("expense item evaluated evaluated by react");
+  //console.log("expense item evaluated evaluated by react");
   const clickHandler = () => {
     setTitle("Updated!!");
     console.log("clicked!!!");
